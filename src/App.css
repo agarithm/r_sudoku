@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.sudoku-board {
+	margin: auto;
+}
+.sudoku-board td {
+	min-width: 2rem;
+	height: 2rem;
+	border: 1px solid;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
